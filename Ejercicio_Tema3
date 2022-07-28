@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+        suma(30, 50, 170);
+
+        Coche miCoche = new Coche();
+        miCoche.AgregarPuerta();
+        System.out.println(miCoche.puertas);
+    }//void main
+
+    public static void suma(int x, int y, int z) {
+        int resultado;
+        resultado = x + y + z;
+        System.out.println(resultado);
+    }//Cierra Funcion
+}//Cierra Main
+    class Coche {
+        public int puertas = 4;
+        public void AgregarPuerta(){
+            this.puertas++;
+        }
+
+    }//Cierra Clase

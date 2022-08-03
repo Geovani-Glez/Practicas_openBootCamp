@@ -1,0 +1,50 @@
+public class Practica2 {
+
+	public static void main(String[] args) {
+// IF
+		var numeroif = 0;		
+		if(numeroif > 0 ){
+			System.out.println("Es Positivo");
+		} else if (numeroif == 0){
+			System.out.println("ES CERO");
+		} else {
+			System.out.println("Es Negativo");
+		}
+		
+//Bucle "While"
+		int numeroWhile = 0;
+		while (numeroWhile < 3){
+			System.out.println(numeroWhile);
+			numeroWhile++;
+		}
+//Bucle "do While"
+		int numeroDo = 9;
+				do {
+			System.out.println(numeroDo);
+			numeroDo--; 
+		} while(numeroDo > 10);
+//Bucle "For"
+		for (int numeroFor = 0; numeroFor <= 3; numeroFor++){
+			System.out.println(numeroFor);
+		}
+//Switch
+var estacion = "PRIMAVERA";
+
+	switch(estacion){
+		case "PRIMAVERA":
+			System.out.println("Es Primavera");
+			break;
+		case "VERANO":
+			System.out.println("Es Verano");
+			break;
+		case "OTOÑO":
+			System.out.println("Es Otoño");
+			break;
+		case "INVIERNO":
+			System.out.println("Es Invierno");
+			break;
+		default:
+			System.out.println("No es estacion");
+	  }
+	}
+}
